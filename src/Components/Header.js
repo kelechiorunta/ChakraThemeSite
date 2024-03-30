@@ -11,6 +11,9 @@ function Header() {
     justify="space-between"
     px={4}
     py={2}
+    position={'sticky'}
+    top={'0'}
+    zIndex={'5'}
     bg="blue.500"
     color="white"
   >
