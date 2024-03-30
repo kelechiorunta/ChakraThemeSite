@@ -46,7 +46,7 @@ function CarouselComponent() {
         ],
       };
   return (
-    <Box p={2} shadow={'md'} mb="8px">
+    <Box p={14} shadow={'md'} mb="8px" w={{base:'98%', sm:'98%', md:'98%', lg:'100%'}} zIndex={3}>
       <Heading as='h2' p={4} textAlign={'left'} textTransform={'uppercase'}>Chakra Gallery</Heading>
       <Slider {...settings} className='slider_container'>
         <div>
